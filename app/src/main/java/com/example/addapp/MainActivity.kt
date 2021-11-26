@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 //int型に直接変換出来ないのでString型にしてから
                 //.toStringでString型に変更できる　型推論で:Intは省略可能
                 var sum: Int = et1.text.toString().toInt() + et2.text.toString().toInt()
-                tvAns.text = "合計は" + sum
+                tvAns.text = "合計は$sum"
                     }
             }
         //クリア処理
