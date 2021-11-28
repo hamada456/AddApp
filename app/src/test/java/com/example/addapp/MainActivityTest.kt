@@ -8,13 +8,13 @@ import org.junit.Test
 
 class MainActivityTest {
 
-    @Before
-    fun setUp() {
-    }
+    //@Before
+    //fun setUp() {
+    //}
 
-    @After
-    fun tearDown() {
-    }
+    //@After
+    //fun tearDown() {
+    //}
 
     @Test
     fun onCreate() {
