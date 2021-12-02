@@ -1,8 +1,8 @@
 package com.example.addapp
 
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Test
-
-import org.junit.Assert.*
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -10,16 +10,17 @@ import org.junit.Assert.*
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 
-class UnitTest {
-    @Test
-    fun addition_isCorrect2() {
-        assertEquals(4, 2 + 2)
-    }
-}
 
 class ExampleUnitTest {
     @Test
+    fun addition_isCorrect2() {
+        val expected = 2 + 2
+        val actual = 4
+        assertEquals(expected,actual)
+    }
+    @Test
     fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+        val flag123 = true
+        assertTrue(flag123)
     }
 }
